@@ -4,9 +4,12 @@ import {OrbitControls, PerspectiveCamera} from '@react-three/drei'
 import { Leva, useControls } from 'leva';
 import { useMediaQuery } from 'react-responsive';
 import HackerRoom from '../components/HackerRoom';
-import Target from '../components/Target';
 import CanvasLoader from '../components/CanvasLoader';
 import { calculateSizes } from '../constants/index';
+import ReactLogo from '../components/ReactLogo';
+import Target from '../components/Target';
+import Cube from '../components/Cube';
+import Rings from '../components/Rings';
 
 const Hero = () => {
   
@@ -42,6 +45,9 @@ const Hero = () => {
 
             <group>
               <Target position={sizes.targetPosition}/>
+              <ReactLogo position={sizes.reactLogoPosition}/>
+              {/* <Rings position={sizes.ringPosition} /> */}
+              <Cube position={sizes.cubePosition} />
             </group>
 
             <ambientLight intensity={1} />
