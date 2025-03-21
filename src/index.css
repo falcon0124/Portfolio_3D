@@ -44,7 +44,22 @@ body {
   .btn-ping_dot {
     @apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
   }
-
+  .grid-container {
+    @apply w-full h-full border border-gray-900 bg-gray-900 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+  }
+  
+  .grid-headtext {
+    @apply text-xl font-semibold mb-2 text-white ;
+  }
+  
+  .grid-subtext {
+    @apply text-gray-400 text-base ;
+  }
+  
+  .copy-container {
+    @apply cursor-pointer flex justify-center items-center gap-2;
+  }
+  
 }
 .waving-hand {
   animation-name: wave-animation;
