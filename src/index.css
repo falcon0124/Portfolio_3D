@@ -81,7 +81,30 @@ body {
   .client-content {
     @apply flex flex-col lg:flex-row justify-between items-start lg:items-center gap-5 mt-7;
   }
-  
+  .contact-container {
+    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
+  }
+
+  .field-label {
+    @apply text-lg text-gray-400;
+}
+
+.field-input {
+    @apply w-full bg-neutral-800 px-5 py-2 min-h-14 rounded-lg 
+           placeholder:text-gray-400 text-lg text-white 
+           shadow-black/20 shadow-2xl focus:outline-none;
+}
+
+.field-btn {
+    @apply bg-gray-900 px-5 py-2 min-h-12 rounded-lg 
+           shadow-black/20 shadow-2xl flex justify-center items-center 
+           text-lg text-white gap-3;
+}
+
+.field-btn_arrow {
+    @apply w-2.5 h-2.5 object-contain filter invert-0 brightness-100;
+}
+
   
 }
 .waving-hand {

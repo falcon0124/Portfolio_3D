@@ -286,3 +286,7 @@ export const navLinks = [
       animation: 'salute',
     },
   ];
+
+  export const serviceId = 'service_ranz30c';
+  export const templateId = 'template_jus1bmk';
+  export const publicKey = 'Nrz61zgSW-bceF5ak';

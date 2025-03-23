@@ -4,6 +4,7 @@ import Hero from './sections/hero.jsx'
 import About from './sections/About.jsx'
 import Clients from './sections/Clients.jsx'
 import Project from './sections/Project.jsx'
+import Contact from './sections/Contact.jsx'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Project />
       {/* <Clients /> */}
+      <Contact />
     </main>
   );
 }
