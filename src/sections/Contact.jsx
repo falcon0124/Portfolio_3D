@@ -51,7 +51,12 @@ const Contact = () => {
     <section className="c-space my-20" id="contact">
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+        <img 
+            src="/assets/terminal.png" 
+            alt="terminal-bg" 
+            className="absolute inset-0 min-h-screen hidden lg:block" 
+        />
+
 
         <div className="contact-container pt-15">
           <h3 className="head-text">Let's talk</h3>
@@ -70,7 +75,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="ex., Raj"
               />
             </label>
 
@@ -83,7 +88,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="ex., Raj@gmail.com"
               />
             </label>
 

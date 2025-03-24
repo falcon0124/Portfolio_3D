@@ -104,6 +104,9 @@ body {
 .field-btn_arrow {
     @apply w-2.5 h-2.5 object-contain filter invert-0 brightness-100;
 }
+.social-icon {
+  @apply w-12 h-12 rounded-full flex justify-center items-center bg-gray-800 border border-gray-800;
+}
 
   
 }

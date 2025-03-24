@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Globe from 'react-globe.gl';
 import Button from '../components/Button';
 
@@ -13,25 +13,26 @@ const About = () => {
       setHasCopied(false);
     }, 2000);
   };
-  
+
   return (
     <section className='c-space my-20' id='about'>
-        <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
-          <div className="col-span-1 xl:row-span-3">
-            <div className="grid-container">
-              <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+      <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
+        <div className="col-span-1 xl:row-span-3">
+          <div className="grid-container">
+            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
-              <div>
-                <p className="grid-headtext">Hi, I'm Sangam Saurav</p>
-                <p className="grid-subtext">
-                  With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                  and responsive websites.
-                </p>
-              </div>
-              
+            <div>
+              <p className="grid-headtext">Hi, I'm Sangam Saurav</p>
+              <p className="grid-subtext">
+                I'm a frontend developer passionate about creating interactive and user-friendly web experiences.
+                With experience in college society websites and personal projects, I love bringing ideas to life 
+                with clean, efficient code.
+              </p>
             </div>
+
           </div>
-          <div className="col-span-1 xl:row-span-3">
+        </div>
+        <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
@@ -43,19 +44,19 @@ const About = () => {
               </p>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className="col-span-1 xl:row-span-4">
+        <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
-              <Globe 
-              height={326}
-              width={326}
-              backgroundColor="rgba(0, 0, 0, 0)"
-              backgroundImageOpacity={0.5}
-              showAtmosphere
-              showGraticules
-              globeImageUrl="../textures/2k_earth_nightmap.jpg"
+              <Globe
+                height={326}
+                width={326}
+                backgroundColor="rgba(0, 0, 0, 0)"
+                backgroundImageOpacity={0.5}
+                showAtmosphere
+                showGraticules
+                globeImageUrl="../textures/2k_earth_nightmap.jpg"
               />
             </div>
             <div>

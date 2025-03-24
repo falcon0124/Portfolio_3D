@@ -5,6 +5,7 @@ import About from './sections/About.jsx'
 import Clients from './sections/Clients.jsx'
 import Project from './sections/Project.jsx'
 import Contact from './sections/Contact.jsx'
+import Footer from './sections/footer.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Project />
       {/* <Clients /> */}
       <Contact />
+      <Footer />
     </main>
   );
 }
