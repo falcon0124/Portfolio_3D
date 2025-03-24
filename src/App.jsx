@@ -6,6 +6,7 @@ import Clients from './sections/Clients.jsx'
 import Project from './sections/Project.jsx'
 import Contact from './sections/Contact.jsx'
 import Footer from './sections/footer.jsx'
+import Experience from './sections/Experience.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Project />
       {/* <Clients /> */}
+      <Experience />
       <Contact />
       <Footer />
     </main>
