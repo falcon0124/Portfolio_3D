@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
   
-        <p className="text-gray-400">© 2024 Adrian Hajdin. All rights reserved.</p>
+        <p className="text-gray-400">© 2025 Sangam Saurav. All rights reserved.</p>
       </footer>
     );
   };

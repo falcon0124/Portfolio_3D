@@ -58,13 +58,13 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'A Recipe App',
+      desc: 'A dynamic and user-friendly recipe app that allows users to search for recipes, filter by categories, and save their favorites for easy access. With a clean and responsive design, it ensures smooth navigation and an engaging experience, making cooking inspiration easily accessible.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+        'Built with JavaScript, HTML, and SCSS, the app offers a responsive UI, dynamic search, and seamless user interactions. Used themeadDB API to fetch recipes',
       href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/recipe.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -74,23 +74,18 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML',
+          path: '/assets/HTML.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'scss',
+          path: 'assets/scss.png',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/JavaScript.png',
         },
       ],
     },
@@ -261,30 +256,22 @@ export const navLinks = [
     {
       id: 1,
       name: 'QuizInc',
-      pos: 'Web Developer',
+      pos: 'Junior Coordinator',
       duration: '2024 - Present',
-      title: "Worked as a Web Developer at QuizInc, where I developed and maintained the official website. I used React.js, Tailwind CSS, and javascript to create responsive and visually appealing web applications. I also collaborated with the design team to implement new features and improve the user experience.",
-      icon: '/assets/framer.svg',
+      title: "Worked as a Junior coordinator at QuizInc the official quiz club on NIT Durgapur. I also developed and  maintained the official website using React.js, Tailwind CSS, and javascript to create responsive and visually appealing web applications. I also collaborated with the design team to implement new features and improve the user experience.",
+      icon: '/assets/QI_logo.png',
       animation: 'victory',
     },
     {
       id: 2,
       name: 'Evolvere',
-      pos: 'Web Developer',
+      pos: 'Junior Coordinator',
       duration: '2024 - present',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      title: "As a Junior Coordinator at Evolvere, the official biotechnology society of NIT Durgapur, I was responsible for developing and maintaining the society's official website. Using HTML, CSS, and JavaScript, I created responsive and visually engaging web applications. Additionally, I collaborated with the design team to implement new features and enhance the user experience.",
+      icon: '/assets/evollogo2.png',
       animation: 'clapping',
     },
-    {
-      id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
-      animation: 'salute',
-    },
+
   ];
 
   export const serviceId = 'service_ranz30c';
