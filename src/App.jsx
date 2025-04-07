@@ -5,7 +5,7 @@ import About from './sections/About.jsx'
 import Clients from './sections/Clients.jsx'
 import Project from './sections/Project.jsx'
 import Contact from './sections/Contact.jsx'
-import Footer from './sections/footer.jsx'
+import Footer from './sections/Footer.jsx'
 import Experience from './sections/Experience.jsx'
 
 function App() {
