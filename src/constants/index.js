@@ -59,7 +59,7 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'A Recipe App',
-      desc: 'A dynamic and user-friendly recipe app that allows users to search for recipes, filter by categories, and save their favorites for easy access. With a clean and responsive design, it ensures smooth navigation and an engaging experience, making cooking inspiration easily accessible.',
+      desc: 'A dynamic and user-friendly recipe app that allows users to search for recipes, filter by categories and chage the looks of the page with the settings tab. With a clean and responsive design, it ensures smooth navigation and an engaging experience, making cooking inspiration.',
       subdesc:
         'Built with JavaScript, HTML, and SCSS, the app offers a responsive UI, dynamic search, and seamless user interactions. Used themeadDB API to fetch recipes',
       href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
@@ -90,13 +90,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'A multi page website for QuizInc, NIT Durgapur',
+      desc: 'Developed a multi-page website for QuizInc, the official quizzing society of NIT Durgapur, to enhance its online presence and engagement. The website features a structured layout with dedicated sections for upcoming events, past quizzes, leaderboards, and member highlights.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+        'Built using React, CSS, and animation libraries. It features a seamless and interactive user experience with smooth animations, intuitive navigation, and a responsive design',
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/QI_logo.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -111,29 +111,24 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS',
+          path: 'assets/Css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'HTML',
+          path: '/assets/HTML.png',
         },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Weather App',
+      desc: 'Built a dynamic weather app that provides real-time weather updates and forecasts for any location. Users can search for cities, view current conditions, and access detailed forecasts. The app features a clean and intuitive interface, ensuring a seamless user experience.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'The app is built using react and utilizes the OpenWeatherMap API to fetch real-time weather data. It features a responsive design, allowing users to access weather information on any device.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/weather.svg',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -150,26 +145,21 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS',
+          path: 'assets/Css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'HTML',
+          path: '/assets/HTML.png',
         },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Tic Tac Toe – Interactive Browser Game',
+      desc: 'A clean and engaging implementation of the classic Tic Tac Toe game, designed with intuitive gameplay and a responsive layout. The game includes real-time win/draw detection and smooth transitions, offering an enjoyable user experience across devices.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+        'Developed using React for building the user interface and managing game state, styled with CSS for a clean layout, and enhanced with smooth interactions using animation libraries.',
       href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
@@ -187,58 +177,17 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS',
+          path: 'assets/Css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'HTML',
+          path: '/assets/HTML.png',
         },
       ],
     },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
+    
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {

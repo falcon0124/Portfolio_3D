@@ -14,7 +14,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="social-icon flex justify-center items-center">
-            <a href="www.linkedin.com/in/sangam911" target="_blank">
+            <a href="https://www.linkedin.com/in/sangam911/" target="_blank">
                 <img src="/assets/linkdin.png" alt="linkedin" className="w-6 h-6" />
             </a>
           </div>
